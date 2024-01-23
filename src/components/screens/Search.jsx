@@ -51,6 +51,7 @@ const Search = () => {
     }
 
   }
+
   const handleDelivery = async (e) => {
     e.preventDefault()
     if (!formData?.country || formData?.address === "" || formData?.phonenumber === null || "") return null
@@ -62,10 +63,11 @@ const Search = () => {
       const res = await axios.post(`${serverUrl}/delivery`, formData, { headers: { "content-type": "multipart/form-data" } })
       if (res.status === 200 || 201) {
         setLoadingState(false)
-        toast.success("Delivery has been qeued")
+        toast.success("Your delivery has been qeued successfully")
 
       }
     } catch (error) {
+      console.log(error);
       setLoadingState(false)
 
     }
