@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,4 +13,6 @@ root.render(
   </React.StrictMode>
 );
 
- 
+
+
+export const serverUrl = `http://127.0.0.1:8000`

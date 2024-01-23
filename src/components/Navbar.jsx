@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='h-[80px] z-10 bg-zinc-200 fixed drop-shadow-sm w-full'>
             <div className='px-2 flex justify-between items-center w-full h-full font-poppins'>
                 <div className='flex items-center jus'>
-                    <div className='flex items-center'> <p className='text-sm font-bold sm:text-sm'></p> <img src={logo} alt="" srcset="" width={40} /></div>
+                    <div className='flex items-center'> <p className='text-sm font-bold sm:text-sm'>HealthAid</p> <img src={logo} alt="" srcset="" width={40} /></div>
                     {/* Hidden, but on medium screen, you flex */}
                    
                 </div>
