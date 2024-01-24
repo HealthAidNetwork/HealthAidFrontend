@@ -14,4 +14,4 @@ root.render(
 );
 
 
-export const serverUrl = `http://34.201.114.120:8004`
+export const serverUrl = `https://eduhack.onrender.com`
