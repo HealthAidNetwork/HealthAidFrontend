@@ -15,8 +15,8 @@ const Hero = () => {
                     <button className='py-3 md:w-[200px]'>Get Started</button>
 
                 </div>
-                <div className='sm:px-8'>
-                    <img className='w-full rounded-full sm:mx-4' src={bgImage} alt=""  />
+                <div className='lg:w-full sm:px-10'>
+                    <img className='lg:w-full rounded-full' src={bgImage} alt=""  />
                 </div>
         
             </div>

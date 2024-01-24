@@ -46,6 +46,7 @@ const Search = () => {
 
       }
     } catch (error) {
+      console.log(error, 'ERRPR');
       setLoadingState(false)
 
     }

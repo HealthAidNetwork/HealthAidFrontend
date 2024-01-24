@@ -14,5 +14,4 @@ root.render(
 );
 
 
-
-export const serverUrl = `http://127.0.0.1:8000`
+export const serverUrl = `http://34.201.114.120:8004`
