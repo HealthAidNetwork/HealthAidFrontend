@@ -19,7 +19,7 @@ const Navbar = () => {
                 <ul className='hidden md:flex'>
                     <Link to="/">   <li className='text-sm hover:cursor-pointer hover:text-blue-600' >Home</li></Link>
                     <Link to="/store"> <li className='text-sm hover:cursor-pointer hover:text-blue-600'>Store</li></Link>
-                    <Link to="/search"> <li className='text-sm hover:cursor-pointer hover:text-blue-600'>Search</li></Link>
+                    <Link to="/search"> <li className='text-sm hover:cursor-pointer hover:text-blue-600'>Upload</li></Link>
 
                 </ul>
     

@@ -14,4 +14,4 @@ root.render(
 );
 
 
-export const serverUrl = `https://eduhack.onrender.com`
+export const serverUrl = `https://eudhack-backend.onrender.com`
