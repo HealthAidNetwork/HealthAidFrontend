@@ -95,7 +95,7 @@ const Store = () => {
       </div>
       {!request && <div className='lg:flex lg:space-x-4 px-4 py-2  sm:gap-y-2'>
         <input type="text" name="" id="" className='border border-blue-500 h-[40px] w-full rounded-md px-2 font-light font-poppins' placeholder='Search drug by name' onChange={(e) => handleSearch(e)} />
-
+   
       </div>}
 
 
